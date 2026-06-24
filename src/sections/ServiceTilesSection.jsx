@@ -139,7 +139,7 @@ export default function ServiceTiles() {
             <div className="absolute inset-0 bg-gradient-to-t from-[rgba(15,35,64,0.85)] via-[rgba(15,35,64,0.35)] to-transparent" />
             <div className="absolute inset-0 flex flex-col justify-between p-[24px]">
               <span className="inline-flex items-center gap-[6px] self-start bg-[rgba(15,35,64,0.7)] backdrop-blur-[8px] text-[#FFFFFF]/80 font-['JetBrains_Mono'] text-[10px] tracking-[0.1em] uppercase px-[10px] py-[5px] rounded-[6px] border border-[rgba(208,217,232,0.2)]">
-                <rest[0].icon className="w-[12px] h-[12px]" strokeWidth={1.5} />
+                {/* <rest[0].icon className="w-[12px] h-[12px]" strokeWidth={1.5} /> */}
                 {rest[0].sublabel}
               </span>
               <div>
@@ -173,7 +173,7 @@ export default function ServiceTiles() {
             <div className="absolute inset-0 bg-gradient-to-t from-[rgba(15,35,64,0.85)] via-[rgba(15,35,64,0.35)] to-transparent" />
             <div className="absolute inset-0 flex flex-col justify-between p-[24px]">
               <span className="inline-flex items-center gap-[6px] self-start bg-[rgba(15,35,64,0.7)] backdrop-blur-[8px] text-[#FFFFFF]/80 font-['JetBrains_Mono'] text-[10px] tracking-[0.1em] uppercase px-[10px] py-[5px] rounded-[6px] border border-[rgba(208,217,232,0.2)]">
-                <rest[1].icon className="w-[12px] h-[12px]" strokeWidth={1.5} />
+                {/* <rest[1].icon className="w-[12px] h-[12px]" strokeWidth={1.5} /> */}
                 {rest[1].sublabel}
               </span>
               <div>
@@ -207,7 +207,7 @@ export default function ServiceTiles() {
             <div className="absolute inset-0 bg-gradient-to-t from-[rgba(15,35,64,0.88)] via-[rgba(15,35,64,0.40)] to-transparent" />
             <div className="absolute inset-0 flex flex-col justify-between p-[24px]">
               <span className="inline-flex items-center gap-[6px] self-start bg-[rgba(201,92,10,0.85)] backdrop-blur-[8px] text-[#FFFFFF]/90 font-['JetBrains_Mono'] text-[10px] tracking-[0.1em] uppercase px-[10px] py-[5px] rounded-[6px]">
-                <rest[2].icon className="w-[12px] h-[12px]" strokeWidth={1.5} />
+                {/* <rest[2].icon className="w-[12px] h-[12px]" strokeWidth={1.5} /> */}
                 {rest[2].sublabel}
               </span>
               <div>
@@ -241,7 +241,7 @@ export default function ServiceTiles() {
             <div className="absolute inset-0 bg-gradient-to-r from-[rgba(15,35,64,0.88)] via-[rgba(15,35,64,0.55)] to-[rgba(15,35,64,0.15)]" />
             <div className="absolute inset-0 flex flex-col justify-center p-[32px] max-w-[520px]">
               <span className="inline-flex items-center gap-[6px] self-start bg-[rgba(15,35,64,0.7)] backdrop-blur-[8px] text-[#FFFFFF]/80 font-['JetBrains_Mono'] text-[10px] tracking-[0.1em] uppercase px-[10px] py-[5px] rounded-[6px] border border-[rgba(208,217,232,0.2)] mb-[16px]">
-                <rest[3].icon className="w-[12px] h-[12px]" strokeWidth={1.5} />
+                {/* <rest[3].icon className="w-[12px] h-[12px]" strokeWidth={1.5} /> */}
                 {rest[3].sublabel}
               </span>
               <h3 className="font-['Barlow_Condensed'] text-[clamp(24px,2.5vw,34px)] font-[800] tracking-[-0.02em] leading-[1.15] text-[#FFFFFF]/90 mb-[10px]">

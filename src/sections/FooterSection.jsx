@@ -1,4 +1,6 @@
-import { Phone, Mail, ArrowRight, Linkedin, Facebook, Twitter, Clock } from 'lucide-react';
+
+import { Phone, Mail, ArrowRight , Clock } from 'lucide-react';
+import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 function FooterSection() {
   const currentYear = new Date().getFullYear();
@@ -54,21 +56,21 @@ function FooterSection() {
                   aria-label="Matrix Plastic Products on LinkedIn"
                   className="w-[36px] h-[36px] rounded-[8px] bg-[#FFFFFF]/8 border border-[#D0D9E8]/15 flex items-center justify-center text-[#FFFFFF]/70 hover:bg-[#1A5FA8] hover:text-[#FFFFFF] hover:border-[#1A5FA8] transition-all duration-[200ms] ease-[cubic-bezier(0.4,0,0.2,1)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1A5FA8]"
                 >
-                  <Linkedin className="w-[16px] h-[16px]" strokeWidth={1.5} />
+                  <FaLinkedin className="w-[16px] h-[16px]" strokeWidth={1.5} />
                 </a>
                 <a
                   href="#"
                   aria-label="Matrix Plastic Products on Facebook"
                   className="w-[36px] h-[36px] rounded-[8px] bg-[#FFFFFF]/8 border border-[#D0D9E8]/15 flex items-center justify-center text-[#FFFFFF]/70 hover:bg-[#1A5FA8] hover:text-[#FFFFFF] hover:border-[#1A5FA8] transition-all duration-[200ms] ease-[cubic-bezier(0.4,0,0.2,1)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1A5FA8]"
                 >
-                  <Facebook className="w-[16px] h-[16px]" strokeWidth={1.5} />
+                  <FaFacebook className="w-[16px] h-[16px]" strokeWidth={1.5} />
                 </a>
                 <a
                   href="#"
                   aria-label="Matrix Plastic Products on Twitter"
                   className="w-[36px] h-[36px] rounded-[8px] bg-[#FFFFFF]/8 border border-[#D0D9E8]/15 flex items-center justify-center text-[#FFFFFF]/70 hover:bg-[#1A5FA8] hover:text-[#FFFFFF] hover:border-[#1A5FA8] transition-all duration-[200ms] ease-[cubic-bezier(0.4,0,0.2,1)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1A5FA8]"
                 >
-                  <Twitter className="w-[16px] h-[16px]" strokeWidth={1.5} />
+                  <FaTwitter className="w-[16px] h-[16px]" strokeWidth={1.5} />
                 </a>
               </div>
             </div>

@@ -345,5 +345,3 @@ export default function CapabilitiesSection() {
     </section>
   );
 }
-
-export default CapabilitiesSection;
